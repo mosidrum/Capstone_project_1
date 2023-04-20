@@ -200,6 +200,7 @@ ul li a {
   height: 100px;
   position: relative;
   right: 60px;
+  top: -1px;
 }
 
 .main-program section .left img {
