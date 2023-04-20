@@ -1,3 +1,4 @@
+
 const menu = document.querySelector('.second-header');
 function showMenu() {
   menu.style.display = 'block';
