@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,6 @@
 
 body {
   width: 100%;
-  padding: 0px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -14,7 +13,8 @@ body {
   background-image: url(../images/mobile-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 header {
@@ -36,6 +36,15 @@ header .fa-solid {
   z-index: 20;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 100px 30px;
+  position: relative;
+}
+
 .first-header ul {
   display: none;
 }
@@ -46,7 +55,25 @@ header .fa-solid {
   display: none;
 }
 
-.second-header a img{
+footer img {
+  width: 100px;
+}
+
+.img-holder img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 15px;
+  top: 18px;
+}
+
+.spons img {
+  padding: 5px;
+  width: 70px;
+  height: 30px;
+}
+
+.second-header a img {
   display: none;
 }
 
@@ -57,15 +84,6 @@ header .fa-solid {
   font-size: 45px;
   top: 50px;
   right: 40px;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 50px;
-  padding: 100px 30px;
-  position: relative;
 }
 
 nav ul li {
@@ -87,6 +105,9 @@ ul li a {
 
 .main h2 {
   text-align: left;
+  color: rgb(85, 84, 84);
+  font-size: 35px;
+  padding: 0px 5px;
 }
 
 .main .main-text {
@@ -106,10 +127,10 @@ ul li a {
 
 .main-head h1 {
   font-size: 40px;
-  padding: 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #f64e39;
   color: transparent;
-  -webkit-background-clip: text;
   background-clip: text;
   background-size: 400%;
   transition: 0.1s ease;
@@ -131,12 +152,6 @@ ul li a {
 .main-head p {
   font-size: 26px;
   color: #f64e39;
-}
-
-.main h2 {
-  color: rgb(85, 84, 84);
-  font-size: 35px;
-  padding: 0px 5px;
 }
 
 .main span {
@@ -196,6 +211,13 @@ ul li a {
   font-size: 22px;
 }
 
+.img-holder .bg {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 60px;
+}
+
 .main-program section .left img{
   width: 50px;
   height: 50px;
@@ -210,6 +232,12 @@ ul li a {
   gap: 10px;
   text-align: center;
   width: 25%;
+}
+
+.sponsors p {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #919190;
 }
 
 .main-program section .left p {
@@ -241,11 +269,11 @@ ul li a {
 
 .speakers {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding: 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   gap: 10px;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -261,22 +289,6 @@ ul li a {
   height: 150px;
 }
 
-.img-holder .bg {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 0px;
-  right: 60px;
-}
-
-.img-holder img {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  right: 15px;
-  top: 18px;
-}
-
 .text-holder {
   width: 60%;
   text-align: left;
@@ -289,7 +301,8 @@ ul li a {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .text-holder hr {
@@ -334,12 +347,6 @@ ul li a {
   padding: 40px 10px;
 }
 
-.sponsors p {
-  font-weight: bolder;
-  font-size: 25px;
-  color: #919190;
-}
-
 .sponsors hr {
   margin: auto;
   height: 2px;
@@ -352,12 +359,6 @@ ul li a {
   display: flex;
 }
 
-.spons img {
-  padding: 5px;
-  width: 70px;
-  height: 30px;
-}
-
 footer {
   display: flex;
   align-items: center;
@@ -365,8 +366,4 @@ footer {
   gap: 30px;
   margin-top: 50px;
   padding: 10px 10px;
-}
-
-footer img {
-  width: 100px;
 }

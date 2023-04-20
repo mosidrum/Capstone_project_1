@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
-  *{
-    padding: 0px;
-    margin: 0px;
+  * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
   }
 
@@ -20,9 +20,19 @@
   }
 
   .first-header {
-    padding: 0px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: #3e3e3e;
     height: 35px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
   }
 
   .first-header ul {
@@ -37,6 +47,24 @@
     padding: 10px;
   }
 
+  nav ul li {
+    list-style: none;
+    padding: 0px 40px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
+  .main-program a {
+    color: #fff;
+    bottom: -35px;
+    position: relative;
+    display: block;
+  }
+
   .first-header ul li a {
     text-decoration: none;
     color: #fff;
@@ -48,10 +76,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
-    border-style: ridge #fff;
+    padding-left: 100px;
+    padding-right: 100px;
     border-color: #fff;
     background: #fff;
+  }
+
+  footer img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .spons img {
+    padding: 10px;
+    width: 100px;
+    height: 60px;
   }
 
   .second-header a img {
@@ -73,29 +112,14 @@
     cursor: pointer;
   }
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 20px;
-    padding: 0;
-  }
-
-  nav ul li {
-    list-style: none;
-    padding: 0px 40px;
-  }
-
-  ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
-
   .nav-link.active,
   .nav-link:hover {
     color: red;
+  }
+
+  .main h2,
+  span {
+    margin: 10px 0;
   }
 
   nav span {
@@ -110,9 +134,10 @@
   .main {
     display: flex;
     justify-content: left;
-    align-items: left;
     text-align: left;
-    padding: 0px 100px 150px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
     background: url(../images/desktop-background.png);
     background-repeat: no-repeat;
   }
@@ -129,7 +154,6 @@
   .main-head h1 {
     width: 70%;
     font-size: 55px;
-    color: #f94129;
     text-transform: uppercase;
     color: transparent;
     -webkit-background-clip: text;
@@ -161,11 +185,6 @@
     margin-bottom: 10px;
     width: 600px;
     text-align: left;
-  }
-
-  .main h2,
-  span {
-    margin: 10px 0;
   }
 
   .main-program {
@@ -218,17 +237,6 @@
     display: none;
   }
 
-  .main-program a {
-    color: #fff;
-    bottom: -35px;
-    position: relative;
-    display: block;
-  }
-
-  .featured {
-    padding: 0px;
-  }
-
   .featured h2 {
     margin-top: 20px;
   }
@@ -244,11 +252,11 @@
 
   .speakers {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 10px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -266,22 +274,11 @@
     width: 100%;
   }
 
-  .spons img {
-    padding: 10px;
-    width: 100px;
-    height: 60px;
-  }
-
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
     gap: 100px;
-  }
-
-  footer img {
-    width: 150px;
-    height: 70px;
   }
 }
