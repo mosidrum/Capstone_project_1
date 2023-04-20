@@ -1,13 +1,12 @@
+const menu = document.querySelector('.second-header')
 function showMenu() {
-  const menu = document.querySelector('.second-header').style.display = 'block';
-  menu;
+  menu.style.display = 'block';
 }
 
 showMenu();
 
 function cancelMenu() {
-  const menu = document.querySelector('.second-header').style.display = 'none';
-  menu;
+  menu.style.display = 'none';
 }
 
 cancelMenu();
