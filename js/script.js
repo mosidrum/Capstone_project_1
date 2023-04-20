@@ -3,7 +3,6 @@ function showMenu() {
   menu.style.display = 'block';
 }
 
-
 function cancelMenu() {
   menu.style.display = 'none';
 }
@@ -17,6 +16,7 @@ const speakers = [
     img: './images/dusin.jpeg',
     imgAlt: 'dusin oyekan',
   },
+  
   {
     id: '2',
     name: 'Minister Tim Godfrey',
