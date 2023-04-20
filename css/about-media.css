@@ -51,7 +51,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  
+
   .first-header ul li {
     list-style-type: none;
     padding: 10px;
@@ -74,7 +74,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-color: #fff;
     background: #fff;
   }
