@@ -16,7 +16,6 @@ const speakers = [
     img: './images/dusin.jpeg',
     imgAlt: 'dusin oyekan',
   },
-  
   {
     id: '2',
     name: 'Minister Tim Godfrey',
