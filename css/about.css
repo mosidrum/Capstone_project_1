@@ -106,7 +106,7 @@ ul li a {
   transition: 0.1s ease;
   animation: move 5s ease infinite;
   background-image: linear-gradient(68.7deg, rgba(29, 173, 235, 1) 13.2%, rgba(137, 149, 250, 1) 29.8%, rgba(229, 109, 212, 1) 48.9%, rgba(255, 68, 128, 1) 68.2%, rgba(255, 94, 0, 1) 86.4%);
-  }
+}
 
 @keyframes move {
   0%,
@@ -136,6 +136,7 @@ ul li a {
   font-size: 18px;
   padding: 10px;
 }
+
 .reach-out span {
   font-weight: bold;
   text-decoration: underline;
@@ -178,7 +179,7 @@ ul li a {
 
 .mid-image {
   border: 2px solid gray;
-  margin: 20px 30px; 
+  margin: 20px 30px;
 }
 
 .mid-image img {
@@ -241,7 +242,7 @@ ul li a {
   border: none;
   margin: auto;
   height: 2px;
-  background: crimson; 
+  background: crimson;
 }
 
 .spons {

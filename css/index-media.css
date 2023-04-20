@@ -60,7 +60,8 @@
     padding-top: 5px;
     display: block;
   }
-  .second-header .fa-xmark{
+  
+  .second-header .fa-xmark {
     display: none;
   }
 
@@ -96,7 +97,7 @@
   .nav-link:hover {
     color: red;
   }
-  
+
   nav span {
     text-align: center;
     margin: auto;
@@ -144,7 +145,6 @@
     100% {
       background-position: 200% 0%;
     }
-  
     50% {
       background-position: 0% 200%;
     }
@@ -163,8 +163,9 @@
     text-align: left;
   }
 
-  .main h2, span {
-    margin: 10px 0px;
+  .main h2,
+  span {
+    margin: 10px 0;
   }
 
   .main-program {
@@ -247,9 +248,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px;
     gap: 10px;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-bottom: 40px;
   }
 
