@@ -3,13 +3,10 @@ function showMenu() {
   menu.style.display = 'block';
 }
 
-showMenu();
 
 function cancelMenu() {
   menu.style.display = 'none';
 }
-
-cancelMenu();
 
 const speakers = [
   {

@@ -154,23 +154,6 @@
   .main-head h1 {
     width: 70%;
     font-size: 55px;
-    text-transform: uppercase;
-    color: transparent;
-    background-size: 400%;
-    transition: 0.3s ease;
-    animation: move 5s ease infinite;
-    background-image: linear-gradient(68.7deg, rgba(29, 173, 235, 1) 13.2%, rgba(137, 149, 250, 1) 29.8%, rgba(229, 109, 212, 1) 48.9%, rgba(255, 68, 128, 1) 68.2%, rgba(255, 94, 0, 1) 86.4%);
-  }
-
-  @keyframes move {
-    0%,
-    100% {
-      background-position: 200% 0%;
-    }
-
-    50% {
-      background-position: 0% 200%;
-    }
   }
 
   .main-program hr {
@@ -280,4 +263,32 @@
     padding-bottom: 40px;
     gap: 100px;
   }
+
+  .animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 }
