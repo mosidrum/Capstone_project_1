@@ -2,9 +2,13 @@ function showMenu() {
   const menu = document.querySelector('.second-header').style.display = 'block';
 }
 
+showMenu();
+
 function cancelMenu() {
   const menu = document.querySelector('.second-header').style.display = 'none';
 }
+
+cancelMenu();
 
 const speakers = [
   {
@@ -58,7 +62,7 @@ const speakers = [
 ];
 
 const speakerContainer = document.querySelector('.speaker-holder');
-const showSpeakers = speakers.map((speaker, index) => `
+const showSpeakers = speakers.map((speaker) => `
     <div class="speakers">
       <div class="img-holder">
         <img class="bg" src="./images/chessboard-mobile.jpg" alt="background">
