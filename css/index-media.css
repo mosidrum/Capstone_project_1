@@ -187,6 +187,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 2px;
   }
 
   .main-program .program .left p {
@@ -203,6 +204,10 @@
     height: 180px;
     width: 160px;
     font-size: 14px;
+  }
+
+  .program section:hover{
+    border: 2px solid #fff;
   }
 
   .main-program section .right {
