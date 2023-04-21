@@ -37,6 +37,10 @@ header .fa-solid {
   z-index: 20;
 }
 
+nav span {
+  display: none;
+}
+
 nav ul {
   display: flex;
   flex-direction: column;
@@ -51,7 +55,7 @@ nav ul {
 }
 
 .second-header {
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
   height: 100vh;
   display: none;
 }
@@ -252,6 +256,8 @@ ul li a {
 
 .featured .line {
   position: relative;
+  height: 2px;
+  background-color: #f64e39;
   top: 20px;
   width: 15%;
   margin: auto;

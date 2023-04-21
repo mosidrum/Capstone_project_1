@@ -32,7 +32,7 @@ header .fa-solid {
 }
 
 .second-header {
-  background: rgba(0, 0, 0);
+  background: #2e2e2e;
   height: 100vh;
   display: none;
 }
@@ -50,6 +50,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
+}
+
+nav span {
+  display: none;
 }
 
 nav ul {
@@ -93,6 +97,7 @@ ul li a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 50px;
   gap: 40px;
 }
 
@@ -138,12 +143,14 @@ ul li a {
 .main .reach-out {
   font-size: 18px;
   padding: 10px;
+  padding-bottom: 30px;
 }
 
 .reach-out span {
   font-weight: bold;
   text-decoration: underline;
   padding: 10px;
+  
 }
 
 .mid {
@@ -163,7 +170,7 @@ ul li a {
 
 .mid-text h4 {
   font-size: 30px;
-  padding: 10px 60px;
+  padding: 40px 60px;
 }
 
 .mid-text hr {
